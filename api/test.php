@@ -6,3 +6,7 @@
  * Time: 0:22
  */
 
+require __DIR__.'/../vendor/autoload.php';
+$ig = new \InstagramAPI\Instagram();
+
+print ('777');
